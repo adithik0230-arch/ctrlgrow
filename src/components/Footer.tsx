@@ -9,12 +9,12 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">E</span>
+                <span className="text-white font-bold text-lg">C</span>
               </div>
-              <span className="text-xl font-bold gradient-text">Enspirit</span>
+              <span className="text-xl font-bold gradient-text">CTRL + Grow</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
-              We partner with startups and enterprises to build digital products that scale, engage, and make a difference.
+              We don't copy and paste strategies. We craft them. From startup essentials to digital marketing, we're your growth partners.
             </p>
           </div>
 
@@ -38,8 +38,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/work" className="text-muted-foreground hover:text-primary transition-colors">
-                  Work
+                <Link to="/blog" className="text-muted-foreground hover:text-primary transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -49,15 +54,15 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>hello@enspirit.co</li>
-              <li>+1 (555) 123-4567</li>
-              <li>San Francisco, CA</li>
+              <li>hello@ctrlgrow.com</li>
+              <li>+91-9876543210</li>
+              <li>Hyderabad, Telangana, India</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 Enspirit. All rights reserved.</p>
+          <p>&copy; 2024 CTRL + Grow. All rights reserved.</p>
         </div>
       </div>
     </footer>

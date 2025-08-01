@@ -11,11 +11,12 @@ const About = () => {
       <section className="hero-bg py-32 pt-40">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-            About <span className="gradient-text">Enspirit</span>
+            About <span className="gradient-text">CTRL + Grow</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We're a digital-first agency passionate about creating products that make a real impact. 
-            Our team combines strategic thinking with creative execution to deliver exceptional results.
+            CTRL + Grow is a digital-first startup accelerator focused on helping brands discover their identity, 
+            define their voice, and dominate their digital presence. We don't believe in one-size-fits-all — 
+            we believe in strategy, structure, and scalable success.
           </p>
         </div>
       </section>
@@ -27,42 +28,42 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold mb-6">Our Mission</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                At Enspirit, we believe that great digital products have the power to transform businesses 
-                and improve lives. Our mission is to partner with forward-thinking organizations to create 
-                digital experiences that truly matter.
+                Empowering startups and businesses with data-driven strategies, powerful digital tools, and creative thinking.
+              </p>
+              <p className="text-lg text-muted-foreground mb-6">
+                At CTRL + Grow, we craft tailored strategies and creative execution that builds a powerful digital presence for every brand.
               </p>
               <p className="text-lg text-muted-foreground">
-                We don't just build products – we craft solutions that drive growth, engagement, 
-                and meaningful change in the world.
+                We're not just service providers — we're your growth partners, dedicated to helping you control and accelerate your success.
               </p>
             </div>
             <div className="card-gradient rounded-2xl p-8">
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold">17+</span>
+                    <span className="text-white font-bold">5+</span>
                   </div>
                   <div>
                     <h3 className="font-semibold">Years Experience</h3>
-                    <p className="text-muted-foreground">Delivering digital solutions</p>
+                    <p className="text-muted-foreground">Accelerating startup growth</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold">200+</span>
+                    <span className="text-white font-bold">100+</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold">Projects Completed</h3>
+                    <h3 className="font-semibold">Brands Grown</h3>
                     <p className="text-muted-foreground">Across various industries</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold">50+</span>
+                    <span className="text-white font-bold">25+</span>
                   </div>
                   <div>
                     <h3 className="font-semibold">Happy Clients</h3>
-                    <p className="text-muted-foreground">From startups to Fortune 500</p>
+                    <p className="text-muted-foreground">Startups to enterprises</p>
                   </div>
                 </div>
               </div>
@@ -84,20 +85,20 @@ const About = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                title: "Innovation",
-                description: "We embrace cutting-edge technologies and creative solutions to stay ahead of the curve."
+                title: "Authenticity",
+                description: "We believe every brand deserves its own unique identity, not cookie-cutter solutions."
               },
               {
-                title: "Quality",
-                description: "Excellence is non-negotiable. We deliver nothing less than exceptional results."
+                title: "Innovation",
+                description: "We embrace cutting-edge strategies and creative thinking to stay ahead of the curve."
+              },
+              {
+                title: "Measurable Growth",
+                description: "Data-driven results that matter. We focus on metrics that directly impact your success."
               },
               {
                 title: "Collaboration",
-                description: "We believe in true partnership, working closely with clients to achieve shared goals."
-              },
-              {
-                title: "Impact",
-                description: "Every project we take on must have the potential to create meaningful, lasting impact."
+                description: "True partnership in your growth journey. We work with you, not just for you."
               }
             ].map((value, index) => (
               <Card key={index} className="card-gradient border-0 shadow-lg text-center">

@@ -9,9 +9,9 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">E</span>
+              <span className="text-white font-bold text-lg">C</span>
             </div>
-            <span className="text-xl font-bold gradient-text">Enspirit</span>
+            <span className="text-xl font-bold gradient-text">CTRL + Grow</span>
           </Link>
 
           {/* Navigation */}
@@ -25,15 +25,20 @@ const Header = () => {
             <Link to="/services" className="text-foreground hover:text-primary transition-colors font-medium">
               Services
             </Link>
-            <Link to="/work" className="text-foreground hover:text-primary transition-colors font-medium">
-              Work
+            <Link to="/blog" className="text-foreground hover:text-primary transition-colors font-medium">
+              Blog
+            </Link>
+            <Link to="/contact" className="text-foreground hover:text-primary transition-colors font-medium">
+              Contact
             </Link>
           </nav>
 
           {/* CTA Button */}
-          <Button className="gradient-bg text-white font-medium px-6 py-2 rounded-full hover:opacity-90 transition-opacity">
-            Contact Us
-          </Button>
+          <Link to="/contact">
+            <Button className="gradient-bg text-white font-medium px-6 py-2 rounded-full hover:opacity-90 transition-opacity">
+              Get Started
+            </Button>
+          </Link>
         </div>
       </div>
     </header>

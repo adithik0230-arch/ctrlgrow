@@ -15,8 +15,8 @@ const Services = () => {
             Our <span className="gradient-text">Services</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From concept to launch and beyond, we provide comprehensive digital solutions 
-            that drive growth and create lasting impact.
+            From startup essentials to digital marketing, we provide comprehensive services 
+            that help you craft tailored strategies and build a powerful digital presence.
           </p>
         </div>
       </section>
@@ -27,47 +27,47 @@ const Services = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             {[
               {
-                title: "Product Strategy & Consulting",
-                description: "We help you define your product vision, identify market opportunities, and create a roadmap for success.",
+                title: "🟢 Digital Marketing",
+                description: "Comprehensive digital marketing strategies to grow your online presence and reach your target audience effectively.",
                 features: [
-                  "Market Research & Analysis",
-                  "Product Roadmap Development", 
-                  "Competitive Analysis",
-                  "Business Model Design",
-                  "Go-to-Market Strategy"
+                  "SEO (On-page & Off-page)",
+                  "Social Media Management", 
+                  "Paid Ad Campaigns (Google Ads, Facebook/Instagram Ads)",
+                  "Content Marketing",
+                  "Email Marketing Campaigns"
                 ]
               },
               {
-                title: "UI/UX Design",
-                description: "Create engaging user experiences that drive conversion and build lasting relationships with your customers.",
+                title: "🟢 Startup Support",
+                description: "Complete startup ecosystem support to help you establish and grow your business from the ground up.",
                 features: [
-                  "User Research & Testing",
-                  "Wireframing & Prototyping",
-                  "Visual Design & Branding",
-                  "Design System Creation",
-                  "Usability Testing"
+                  "Business Branding & Naming",
+                  "Logo Design & Visual Identity",
+                  "Pitch Decks & Presentations",
+                  "Product-Market Fit Analysis",
+                  "Business Strategy Development"
                 ]
               },
               {
-                title: "Web & Mobile Development",
-                description: "Build scalable, high-performance applications using the latest technologies and best practices.",
+                title: "🟢 Web & Tech Solutions",
+                description: "Modern web development and technical solutions that provide a strong foundation for your digital presence.",
                 features: [
-                  "React & Next.js Development",
-                  "Mobile App Development",
-                  "Backend API Development",
-                  "Database Design",
-                  "Cloud Infrastructure"
+                  "Website Design & Development",
+                  "UI/UX Design",
+                  "E-Commerce Development",
+                  "Web Maintenance & Analytics",
+                  "Mobile-Responsive Solutions"
                 ]
               },
               {
-                title: "Digital Marketing",
-                description: "Grow your digital presence and reach your target audience with data-driven marketing strategies.",
+                title: "🟢 Growth Strategy",
+                description: "Data-driven growth strategies and automation tools to scale your business efficiently and effectively.",
                 features: [
-                  "SEO & Content Marketing",
-                  "Social Media Marketing",
-                  "Paid Advertising (PPC)",
-                  "Email Marketing",
-                  "Analytics & Reporting"
+                  "Lead Generation",
+                  "Email Marketing Automation",
+                  "Automation Tools Integration",
+                  "Competitor Analysis",
+                  "Performance Analytics & Reporting"
                 ]
               }
             ].map((service, index) => (
@@ -102,7 +102,7 @@ const Services = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Our Process</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We follow a proven methodology to ensure every project delivers exceptional results
+              We follow a proven methodology focused on crafting tailored strategies, not copy-paste solutions
             </p>
           </div>
           
@@ -110,23 +110,23 @@ const Services = () => {
             {[
               {
                 step: "01",
-                title: "Discovery",
-                description: "We start by understanding your business, goals, and challenges through in-depth research and stakeholder interviews."
+                title: "Discovery & Strategy",
+                description: "We start by understanding your brand, goals, and challenges to craft a tailored strategy unique to your business."
               },
               {
                 step: "02", 
-                title: "Strategy",
-                description: "Based on our findings, we develop a comprehensive strategy and roadmap tailored to your specific needs."
+                title: "Creative Execution",
+                description: "Our team brings your strategy to life through creative design, compelling content, and powerful digital tools."
               },
               {
                 step: "03",
-                title: "Design & Development",
-                description: "Our team brings the strategy to life through thoughtful design and robust development practices."
+                title: "Implementation",
+                description: "We execute your customized plan with precision, ensuring every element aligns with your brand identity."
               },
               {
                 step: "04",
-                title: "Launch & Optimize",
-                description: "We launch your product and continue to optimize based on real user feedback and performance data."
+                title: "Growth & Optimization",
+                description: "We monitor, analyze, and continuously optimize your results to ensure sustainable growth and success."
               }
             ].map((phase, index) => (
               <Card key={index} className="card-gradient border-0 shadow-lg text-center relative">
@@ -147,20 +147,20 @@ const Services = () => {
       <section className="py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Technologies We Use</h2>
+            <h2 className="text-4xl font-bold mb-4">Tools & Technologies We Use</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We leverage cutting-edge technologies to build scalable, maintainable solutions
+              We leverage the best tools and platforms to deliver exceptional results for your business
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
             {[
-              "React", "Next.js", "TypeScript", "Node.js", "Python", "AWS",
-              "PostgreSQL", "MongoDB", "Docker", "Kubernetes", "GraphQL", "Tailwind CSS"
-            ].map((tech, index) => (
+              "Google Ads", "Facebook Ads", "HubSpot", "WordPress", "Shopify", "Canva",
+              "Figma", "Google Analytics", "Mailchimp", "Hootsuite", "Slack", "Zoom"
+            ].map((tool, index) => (
               <div key={index} className="card-gradient rounded-lg p-6 text-center">
                 <div className="w-12 h-12 gradient-bg rounded-lg mx-auto mb-3"></div>
-                <span className="font-medium">{tech}</span>
+                <span className="font-medium">{tool}</span>
               </div>
             ))}
           </div>
@@ -170,12 +170,12 @@ const Services = () => {
       {/* CTA Section */}
       <section className="py-20 hero-bg">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
+          <h2 className="text-4xl font-bold mb-6">Ready to Control Your Growth?</h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Let's discuss your project and explore how our services can help you achieve your goals.
+            Let's discuss your project and explore how our tailored services can help accelerate your startup's success.
           </p>
           <Button className="gradient-bg text-white px-8 py-6 text-lg rounded-full hover:opacity-90 transition-opacity">
-            Contact Us Today
+            Get Started Today
           </Button>
         </div>
       </section>
